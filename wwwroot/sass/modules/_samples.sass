@@ -1,0 +1,30 @@
+.samples li
+	margin: 0 0 $margin*2 0
+	@media screen and (min-width: $break2)
+		float: left
+		width: 50%
+	
+.sample
+	display: block
+	@media screen and (min-width: $break2)
+		margin-left: $margin
+	
+li:first-child .sample
+	@media screen and (min-width: $break2)
+		margin-left: 0
+		margin-right: $margin
+
+.samples img
+	display: block
+	width: 100%
+	height: auto
+	margin: 0
+	padding: 0
+	line-height: 0
+	
+.img
+	margin: $margin 0 0 0
+	border: 4px solid $medium
+	
+.samples a:hover .img
+	border: 4px solid $development

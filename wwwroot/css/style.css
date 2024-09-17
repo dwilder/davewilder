@@ -1,0 +1,486 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,600);
+/* line 5, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/partials/_utilities.sass */
+.group:after {
+  content: ".";
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+
+/* line 1, ../sass/partials/_layout.sass */
+body {
+  color: #222;
+  background: #f8f8f8;
+  border-top: 1em solid #222;
+  border-bottom: 1em solid #222;
+}
+
+/* line 7, ../sass/partials/_layout.sass */
+.container {
+  margin: 0 1em;
+}
+@media screen and (min-width: 47em) {
+  /* line 7, ../sass/partials/_layout.sass */
+  .container {
+    width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 14, ../sass/partials/_layout.sass */
+.wrap {
+  margin: 0 1em;
+}
+@media screen and (min-width: 47em) {
+  /* line 14, ../sass/partials/_layout.sass */
+  .wrap {
+    width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 21, ../sass/partials/_layout.sass */
+section {
+  margin: 2em 0 4em;
+}
+
+/* line 1, ../sass/partials/_typography.sass */
+h1 {
+  margin: 0 0 0.33333em 0;
+  font-family: Gill Sans, Helvetica Neue, Arial, sans serif;
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media screen and (min-width: 35em) {
+  /* line 1, ../sass/partials/_typography.sass */
+  h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 45em) {
+  /* line 1, ../sass/partials/_typography.sass */
+  h1 {
+    font-size: 104px;
+  }
+}
+
+/* line 14, ../sass/partials/_typography.sass */
+h2 {
+  margin: 0 0 0.5em 0;
+  font-family: Gill Sans, Helvetica Neue, Arial, sans serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 45em) {
+  /* line 14, ../sass/partials/_typography.sass */
+  h2 {
+    font-size: 48px;
+    font-weight: 300;
+  }
+}
+
+/* line 24, ../sass/partials/_typography.sass */
+h3 {
+  margin: 0 0 1em 0;
+  font-family: Gill Sans, Helvetica Neue, Arial, sans serif;
+  font-size: 20px;
+}
+@media screen and (min-width: 45em) {
+  /* line 24, ../sass/partials/_typography.sass */
+  h3 {
+    font-size: 24px;
+  }
+}
+
+/* line 31, ../sass/partials/_typography.sass */
+p {
+  margin: 0 0 1em 0;
+  line-height: 1.65;
+  font-family: "Josefin Sans", Gill Sans, Helvetica Neue, Arial, sans serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+@media screen and (min-width: 45em) {
+  /* line 31, ../sass/partials/_typography.sass */
+  p {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+}
+
+/* line 41, ../sass/partials/_typography.sass */
+li {
+  margin: 0 0 0.25em 0;
+  line-height: 1.5;
+  font-family: "Josefin Sans", Gill Sans, Helvetica Neue, Arial, sans serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+@media screen and (min-width: 45em) {
+  /* line 41, ../sass/partials/_typography.sass */
+  li {
+    font-size: 24px;
+  }
+}
+
+/* line 50, ../sass/partials/_typography.sass */
+hr {
+  margin: 2em 0;
+}
+
+/* line 1, ../sass/partials/_links.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 4, ../sass/partials/_links.sass */
+a:link {
+  color: #4c4c4c;
+}
+
+/* line 7, ../sass/partials/_links.sass */
+a:visited {
+  color: #4c4c4c;
+}
+
+/* line 10, ../sass/partials/_links.sass */
+a:hover,
+a:focus {
+  color: #820817;
+}
+
+/* line 14, ../sass/partials/_links.sass */
+a:active {
+  color: #b2b2b2;
+}
+
+/* line 1, ../sass/modules/_header.sass */
+.page-header {
+  padding: 3em 0 0;
+}
+@media screen and (min-width: 45em) {
+  /* line 1, ../sass/modules/_header.sass */
+  .page-header {
+    padding: 6.5em 0 4.5em;
+  }
+}
+
+/* line 6, ../sass/modules/_header.sass */
+.site-tagline {
+  text-align: center;
+}
+@media screen and (min-width: 45em) {
+  /* line 6, ../sass/modules/_header.sass */
+  .site-tagline {
+    font-size: 32px;
+  }
+}
+
+/* line 1, ../sass/modules/_site-nav.sass */
+.site-nav {
+  margin: 0 0 32px 0;
+  padding: 32px 0;
+}
+@media screen and (min-width: 35em) {
+  /* line 1, ../sass/modules/_site-nav.sass */
+  .site-nav {
+    float: left;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 45em) {
+  /* line 1, ../sass/modules/_site-nav.sass */
+  .site-nav {
+    padding-bottom: 6.5em;
+  }
+}
+
+@media screen and (min-width: 35em) {
+  /* line 10, ../sass/modules/_site-nav.sass */
+  .site-nav ul {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 35em) {
+  /* line 15, ../sass/modules/_site-nav.sass */
+  .site-nav li {
+    float: left;
+    width: 33.33333%;
+  }
+}
+
+/* line 20, ../sass/modules/_site-nav.sass */
+.site-nav a {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0.5em 1em;
+  margin-left: -1em;
+  border-radius: 2px;
+}
+@media screen and (min-width: 35em) {
+  /* line 20, ../sass/modules/_site-nav.sass */
+  .site-nav a {
+    float: left;
+    padding: 40px 0 0 0;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 45em) {
+  /* line 20, ../sass/modules/_site-nav.sass */
+  .site-nav a {
+    padding: 72px 0 0 0;
+    font-size: 32px;
+  }
+}
+
+/* line 36, ../sass/modules/_site-nav.sass */
+.nav-design {
+  background: url(http://davewilder.ca/img/icon_tetra.png) no-repeat right 8px;
+}
+@media screen and (min-width: 35em) {
+  /* line 36, ../sass/modules/_site-nav.sass */
+  .nav-design {
+    background: url(http://davewilder.ca/img/icon_tetra.png) no-repeat 50% 8px;
+  }
+}
+@media screen and (min-width: 45em) {
+  /* line 36, ../sass/modules/_site-nav.sass */
+  .nav-design {
+    background: url(http://davewilder.ca/img/icon_tetra@2x.png) no-repeat 50% 8px;
+  }
+}
+
+/* line 43, ../sass/modules/_site-nav.sass */
+.nav-development {
+  background: url(http://davewilder.ca/img/icon_cube.png) no-repeat right 8px;
+}
+@media screen and (min-width: 35em) {
+  /* line 43, ../sass/modules/_site-nav.sass */
+  .nav-development {
+    background: url(http://davewilder.ca/img/icon_cube.png) no-repeat 50% 8px;
+  }
+}
+@media screen and (min-width: 45em) {
+  /* line 43, ../sass/modules/_site-nav.sass */
+  .nav-development {
+    background: url(http://davewilder.ca/img/icon_cube@2x.png) no-repeat 50% 8px;
+  }
+}
+
+/* line 50, ../sass/modules/_site-nav.sass */
+.nav-dave {
+  background: url(http://davewilder.ca/img/icon_octa.png) no-repeat right 8px;
+}
+@media screen and (min-width: 35em) {
+  /* line 50, ../sass/modules/_site-nav.sass */
+  .nav-dave {
+    background: url(http://davewilder.ca/img/icon_octa.png) no-repeat 50% 8px;
+  }
+}
+@media screen and (min-width: 45em) {
+  /* line 50, ../sass/modules/_site-nav.sass */
+  .nav-dave {
+    background: url(http://davewilder.ca/img/icon_octa@2x.png) no-repeat 50% 8px;
+  }
+}
+
+/* line 57, ../sass/modules/_site-nav.sass */
+.nav-design:hover,
+.nav-design:focus {
+  color: #F8E71C;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  background-color: #989898;
+}
+
+/* line 63, ../sass/modules/_site-nav.sass */
+.nav-development:hover,
+.nav-development:focus {
+  color: #820817;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
+  background-color: #b2b2b2;
+}
+
+/* line 69, ../sass/modules/_site-nav.sass */
+.nav-dave:hover,
+.nav-dave:focus {
+  color: #417505;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
+  background-color: #b2b2b2;
+}
+
+/* line 1, ../sass/modules/_nav-top.sass */
+.nav-top {
+  padding: 8px 0 8px 48px;
+}
+
+/* line 3, ../sass/modules/_meta.sass */
+.meta-design {
+  padding: 8px 0 8px 40px;
+  background: url(img/icon_tetra_small.png) no-repeat 0 8px;
+}
+
+/* line 7, ../sass/modules/_meta.sass */
+.meta-development {
+  padding: 8px 0 8px 40px;
+  background: url(http://davewilder.dev/img/icon_cube_small.png) no-repeat 0 8px;
+}
+
+/* line 11, ../sass/modules/_meta.sass */
+.meta-dave {
+  padding: 8px 0 8px 40px;
+  background: url(http://davewilder.dev/img/icon_octa_small.png) no-repeat 0 8px;
+}
+
+/* line 1, ../sass/modules/_samples.sass */
+.samples li {
+  margin: 0 0 2em 0;
+}
+@media screen and (min-width: 35em) {
+  /* line 1, ../sass/modules/_samples.sass */
+  .samples li {
+    float: left;
+    width: 50%;
+  }
+}
+
+/* line 7, ../sass/modules/_samples.sass */
+.sample {
+  display: block;
+}
+@media screen and (min-width: 35em) {
+  /* line 7, ../sass/modules/_samples.sass */
+  .sample {
+    margin-left: 1em;
+  }
+}
+
+@media screen and (min-width: 35em) {
+  /* line 12, ../sass/modules/_samples.sass */
+  li:first-child .sample {
+    margin-left: 0;
+    margin-right: 1em;
+  }
+}
+
+/* line 17, ../sass/modules/_samples.sass */
+.samples img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+/* line 25, ../sass/modules/_samples.sass */
+.img {
+  margin: 1em 0 0 0;
+  border: 4px solid #989898;
+}
+
+/* line 29, ../sass/modules/_samples.sass */
+.samples a:hover .img {
+  border: 4px solid #820817;
+}
+
+/* line 1, ../sass/modules/_site-footer.sass */
+.site-footer {
+  padding: 2em 0;
+  background: #dfdfdf;
+}
+
+/* line 5, ../sass/modules/_site-footer.sass */
+.site-footer p {
+  margin: 0;
+}
+
+/* line 8, ../sass/modules/_site-footer.sass */
+.site-footer a:link,
+.site-footer a:visited {
+  color: #820817;
+}
+
+/* line 12, ../sass/modules/_site-footer.sass */
+.site-footer a:hover,
+.site-footer a:focus {
+  color: #b20b20;
+}
