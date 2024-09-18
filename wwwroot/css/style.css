@@ -221,7 +221,7 @@ a:visited {
 /* line 10, ../sass/partials/_links.sass */
 a:hover,
 a:focus {
-  color: #820817;
+  color: #182455;
 }
 
 /* line 14, ../sass/partials/_links.sass */
@@ -314,67 +314,67 @@ a:active {
 
 /* line 36, ../sass/modules/_site-nav.sass */
 .nav-design {
-  background: url(http://davewilder.ca/img/icon_tetra.png) no-repeat right 8px;
+  background: url(../img/icon_tetra.png) no-repeat right 8px;
 }
 @media screen and (min-width: 35em) {
   /* line 36, ../sass/modules/_site-nav.sass */
   .nav-design {
-    background: url(http://davewilder.ca/img/icon_tetra.png) no-repeat 50% 8px;
+    background: url(../img/icon_tetra.png) no-repeat 50% 8px;
   }
 }
 @media screen and (min-width: 45em) {
   /* line 36, ../sass/modules/_site-nav.sass */
   .nav-design {
-    background: url(http://davewilder.ca/img/icon_tetra@2x.png) no-repeat 50% 8px;
+    background: url(../img/icon_tetra@2x.png) no-repeat 50% 8px;
   }
 }
 
 /* line 43, ../sass/modules/_site-nav.sass */
 .nav-development {
-  background: url(http://davewilder.ca/img/icon_cube.png) no-repeat right 8px;
+  background: url(../img/icon_cube.png) no-repeat right 8px;
 }
 @media screen and (min-width: 35em) {
   /* line 43, ../sass/modules/_site-nav.sass */
   .nav-development {
-    background: url(http://davewilder.ca/img/icon_cube.png) no-repeat 50% 8px;
+    background: url(../img/icon_cube.png) no-repeat 50% 8px;
   }
 }
 @media screen and (min-width: 45em) {
   /* line 43, ../sass/modules/_site-nav.sass */
   .nav-development {
-    background: url(http://davewilder.ca/img/icon_cube@2x.png) no-repeat 50% 8px;
+    background: url(../img/icon_cube@2x.png) no-repeat 50% 8px;
   }
 }
 
 /* line 50, ../sass/modules/_site-nav.sass */
 .nav-dave {
-  background: url(http://davewilder.ca/img/icon_octa.png) no-repeat right 8px;
+  background: url(..//img/icon_octa.png) no-repeat right 8px;
 }
 @media screen and (min-width: 35em) {
   /* line 50, ../sass/modules/_site-nav.sass */
   .nav-dave {
-    background: url(http://davewilder.ca/img/icon_octa.png) no-repeat 50% 8px;
+    background: url(../img/icon_octa.png) no-repeat 50% 8px;
   }
 }
 @media screen and (min-width: 45em) {
   /* line 50, ../sass/modules/_site-nav.sass */
   .nav-dave {
-    background: url(http://davewilder.ca/img/icon_octa@2x.png) no-repeat 50% 8px;
+    background: url(../img/icon_octa@2x.png) no-repeat 50% 8px;
   }
 }
 
 /* line 57, ../sass/modules/_site-nav.sass */
 .nav-design:hover,
 .nav-design:focus {
-  color: #F8E71C;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
-  background-color: #989898;
+  color: #182455;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
+  background-color: #b2b2b2;
 }
 
 /* line 63, ../sass/modules/_site-nav.sass */
 .nav-development:hover,
 .nav-development:focus {
-  color: #820817;
+  color: #182455;
   text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
   background-color: #b2b2b2;
 }
@@ -382,7 +382,7 @@ a:active {
 /* line 69, ../sass/modules/_site-nav.sass */
 .nav-dave:hover,
 .nav-dave:focus {
-  color: #417505;
+  color: #182455;
   text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
   background-color: #b2b2b2;
 }
@@ -392,22 +392,22 @@ a:active {
   padding: 8px 0 8px 48px;
 }
 
-/* line 3, ../sass/modules/_meta.sass */
+/* line 1, ../sass/modules/_meta.sass */
 .meta-design {
   padding: 8px 0 8px 40px;
-  background: url(img/icon_tetra_small.png) no-repeat 0 8px;
+  background: url(../img/icon_tetra_small.png) no-repeat 0 8px;
 }
 
-/* line 7, ../sass/modules/_meta.sass */
+/* line 5, ../sass/modules/_meta.sass */
 .meta-development {
   padding: 8px 0 8px 40px;
-  background: url(http://davewilder.dev/img/icon_cube_small.png) no-repeat 0 8px;
+  background: url(../img/icon_cube_small.png) no-repeat 0 8px;
 }
 
-/* line 11, ../sass/modules/_meta.sass */
+/* line 9, ../sass/modules/_meta.sass */
 .meta-dave {
   padding: 8px 0 8px 40px;
-  background: url(http://davewilder.dev/img/icon_octa_small.png) no-repeat 0 8px;
+  background: url(../img/icon_octa_small.png) no-repeat 0 8px;
 }
 
 /* line 1, ../sass/modules/_samples.sass */
@@ -459,7 +459,7 @@ a:active {
 
 /* line 29, ../sass/modules/_samples.sass */
 .samples a:hover .img {
-  border: 4px solid #820817;
+  border: 4px solid #182455;
 }
 
 /* line 1, ../sass/modules/_site-footer.sass */
@@ -476,11 +476,11 @@ a:active {
 /* line 8, ../sass/modules/_site-footer.sass */
 .site-footer a:link,
 .site-footer a:visited {
-  color: #820817;
+  color: #182455;
 }
 
 /* line 12, ../sass/modules/_site-footer.sass */
 .site-footer a:hover,
 .site-footer a:focus {
-  color: #b20b20;
+  color: #23357d;
 }

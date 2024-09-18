@@ -9,7 +9,7 @@
 	<title>Dave Wilder | Web Developer and Designer</title>
 	<meta type="description" content="Dave Wilder is a web developer and designer based in Toronto, Canada. He builds mobile optimized, responsive websites and cross-platform mobile applications." />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-	<link rel="stylesheet" href="css/style.css?1" />
+	<link rel="stylesheet" href="css/style.css" />
 	<link rel="icon" type="image/png" href="favicon.png" />
 </head>
 <body>
@@ -115,18 +115,17 @@
 			
 			<p class="meta-dave">Designing and developing websites since 2007.</p>
 			
-			<p>My focus is on producing clean code using current best practices, and designing for a changing landscape of mobile and browser technology. I love, love, love to build responsive web applications and cross-platform mobile applications. You can contact me for a quote on your project, or just a friendly chat...</p>
+			<p>My focus is on producing clean code using current best practices, and designing for a changing landscape of mobile and browser technology. I love, love, love to build responsive web applications and cross-platform mobile applications.</p>
 			
-			<h3>Elsewhere</h3>
+			<p>Get in touch to discuss your project...</p>
+			
+			<h3>Contact</h3>
 			
 			<ul>
-				<!-- <li><a href="http://liddweaver.com">Web Log</a></li> -->
-				<li><a href="https://github.com/dwilder">Github</a></li>
-				<li><a href="http://codepen.io/davewilder">Codepen</a></li>
-				<li><a href="https://profiles.wordpress.org/liddweaver/">Wordpress</a></li>
-				<!-- <li><a href="http://wilderdrums.com">Drum Blog</a></li> -->
+				<li>Send me an <a href='mailto:contact@davewilder.ca'>email</a></li>
+				<li>Give me a ring: <a href='tel:4165098103'>416-509-8103</a></li>
 			</ul>
-			
+
 		</section>
 		
 	</div>
@@ -136,10 +135,16 @@
 		
 		<div class="wrap">
 			
-			<h3>Contact</h3>
+			<h3>Elsewhere</h3>
+
+			<ul>
+				<!-- <li><a href="http://liddweaver.com">Web Log</a></li> -->
+				<li><a href="https://github.com/dwilder" target="_blank">Github</a></li>
+				<li><a href="http://codepen.io/davewilder" target="_blank">Codepen</a></li>
+				<li><a href="https://profiles.wordpress.org/liddweaver/" target="_blank">Wordpress</a></li>
+				<!-- <li><a href="http://wilderdrums.com">Drum Blog</a></li> -->
+			</ul>
 		
-			<p>Send me an <a href='mailto:contact@davewilder.ca'>email</a></p>
-			<p>Give me a ring: <a href='tel:4165098103'>416-509-8103</a></p>
 			
 			<hr />
 			<p>Copyright &copy; <?php
