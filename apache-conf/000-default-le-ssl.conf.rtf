@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 <IfModule mod_ssl.c>\
+<VirtualHost *:443>\
+        ServerAdmin webmaster@localhost\
+        DocumentRoot /var/www/html\
+\
+        <Directory /var/www/html/>\
+            Options Indexes FollowSymLinks\
+            AllowOverride All\
+            Require all granted\
+        </Directory>\
+\
+        ErrorLog $\{APACHE_LOG_DIR\}/error.log\
+        CustomLog $\{APACHE_LOG_DIR\}/access.log combined\
+\
+        <IfModule mod_dir.c>\
+            DirectoryIndex index.php index.pl index.cgi index.html index.xhtml index.htm\
+        </IfModule>\
+\
+\
+ServerName davewilder.ca\
+Include /etc/letsencrypt/options-ssl-apache.conf\
+ServerAlias www.davewilder.ca\
+SSLCertificateFile /etc/letsencrypt/live/davewilder.ca/fullchain.pem\
+SSLCertificateKeyFile /etc/letsencrypt/live/davewilder.ca/privkey.pem\
+</VirtualHost>\
+</IfModule>}

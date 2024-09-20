@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,600);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,600);
 /* line 5, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -468,19 +468,41 @@ a:active {
   background: #dfdfdf;
 }
 
-/* line 5, ../sass/modules/_site-footer.sass */
-.site-footer p {
-  margin: 0;
+@media screen and (min-width: 35em) {
+  /* line 5, ../sass/modules/_site-footer.sass */
+  .site-footer-menus {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 9, ../sass/modules/_site-footer.sass */
+  .site-footer-menus section {
+    margin: 0;
+    width: 50%;
+  }
 }
 
-/* line 8, ../sass/modules/_site-footer.sass */
+/* line 13, ../sass/modules/_site-footer.sass */
+.site-footer li {
+  position: relative;
+  padding-left: 34px;
+}
+
+/* line 17, ../sass/modules/_site-footer.sass */
 .site-footer a:link,
 .site-footer a:visited {
   color: #182455;
 }
 
-/* line 12, ../sass/modules/_site-footer.sass */
+/* line 21, ../sass/modules/_site-footer.sass */
 .site-footer a:hover,
 .site-footer a:focus {
   color: #23357d;
+}
+
+/* line 25, ../sass/modules/_site-footer.sass */
+.icon-social {
+  height: 24px;
+  position: absolute;
+  top: 2px;
+  left: 0;
 }

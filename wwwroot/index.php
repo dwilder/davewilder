@@ -1,14 +1,26 @@
 <?php
 	
 // The one page portfolio
+$url = "https://davewilder.ca";
+$title = "Dave Wilder | Web and Mobile Designer";
+$description = "Dave Wilder is a web developer and designer based in Toronto, Canada. He builds mobile optimized, responsive websites and cross-platform mobile applications.";
 
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf8">
-	<title>Dave Wilder | Web Developer and Designer</title>
-	<meta type="description" content="Dave Wilder is a web developer and designer based in Toronto, Canada. He builds mobile optimized, responsive websites and cross-platform mobile applications." />
+	<meta charset="utf-8">
+	<title><?php echo $title ?></title>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+	<meta property="og:image" content="<?php echo $url; ?>/img/davewilder-social-card.jpg" />
+	<meta name="twitter:image" content="<?php echo $url; ?>/img/davewilder-social-card.jpg" />
+	<meta property="og:url" content="<?php echo $url; ?>" />
+	<meta property="og:locale" content="en" />
+	<meta property="og:title" content="<?php echo $title; ?>" />
+	<meta name="description" content="<?php echo $description; ?>" />
+	<meta name="description" content="<?php echo $description; ?>" />
+
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="icon" type="image/png" href="favicon.png" />
 </head>
@@ -59,14 +71,12 @@
 					</div>
 				</li>
 				<li>
-					<div class="sample">
-					<!-- <a href="/img/design_ui.png" target="_blank"> -->
+					<a href="https://fifthparamita.com" target="_blank" class="sample">
 						<span>User Interface Design</span>
 						<div class="img">
 							<img src="img/design_ui_small.jpg" alt="UI Design sample" />
 						</div>
-					<!-- </a> -->
-					</div>
+					</a>
 				</li>
 			</ul>
 			
@@ -135,17 +145,60 @@
 		
 		<div class="wrap">
 			
-			<h3>Elsewhere</h3>
+			<div class="site-footer-menus">
 
-			<ul>
-				<!-- <li><a href="http://liddweaver.com">Web Log</a></li> -->
-				<li><a href="https://github.com/dwilder" target="_blank">Github</a></li>
-				<li><a href="http://codepen.io/davewilder" target="_blank">Codepen</a></li>
-				<li><a href="https://profiles.wordpress.org/liddweaver/" target="_blank">Wordpress</a></li>
-				<!-- <li><a href="http://wilderdrums.com">Drum Blog</a></li> -->
-			</ul>
-		
+				<section>
+
+					<h3>Elsewhere</h3>
+
+					<ul>
+						<!-- <li><a href="http://liddweaver.com">Web Log</a></li> -->
+						<li>
+							<a href="https://www.linkedin.com/in/davidedwardwilder" target="_blank">
+								<img src="./img/logo-linkedin.png" class="icon-social" alt="LinkedIn logo" />
+								<span>LinkedIn</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/dwilder" target="_blank">
+								<img src="./img/logo-github.svg" class="icon-social" alt="GitHub logo" />
+								<span>Github<span>
+							</a>
+						</li>
+						<li>
+							<a href="http://codepen.io/davewilder" target="_blank">
+								<img src="./img/logo-codepen.png" class="icon-social" alt="Codepen logo" />
+								<span>Codepen</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://profiles.wordpress.org/liddweaver/" target="_blank">
+								<img src="./img/logo-wordpress.png" class="icon-social" alt="WordPress logo" />
+								<span>WordPress</span>
+							</a>
+						</li>
+						<!-- <li><a href="http://wilderdrums.com">Drum Blog</a></li> -->
+					</ul>
+
+				</section>
+
+				<section>
+
+					<h3>Projects</h3>
+
+					<ul>
+						<li>
+							<a href="https://drummism.com" target="_blank">
+								<img src="./img/logo-drummism.png" class="icon-social" alt="Drummism logo" />
+								<span>Drummism</span>
+							</a>
+						</li>
+					</ul>
+
+				</section>
 			
+			</div>
+
 			<hr />
 			<p>Copyright &copy; <?php
 				

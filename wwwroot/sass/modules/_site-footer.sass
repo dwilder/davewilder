@@ -1,9 +1,18 @@
 .site-footer
 	padding: $margin*2 0
 	background: darken( $color-light, 10% )
-	
-.site-footer p
-	margin: 0
+
+.site-footer-menus
+	@media screen and (min-width: $break2)
+		display: flex
+		flex-direction: row
+		section
+			margin: 0
+			width: 50%
+
+.site-footer li
+	position: relative
+	padding-left: 34px
 	
 .site-footer a:link,
 .site-footer a:visited
@@ -12,3 +21,10 @@
 .site-footer a:hover,
 .site-footer a:focus
 	color: lighten($development, 10%)
+
+.icon-social
+	height: 24px
+	position: absolute
+	top: 2px
+	left: 0
+	
