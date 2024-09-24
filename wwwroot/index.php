@@ -87,9 +87,11 @@ $description = "Dave Wilder is a web developer and designer based in Toronto, Ca
 			<a id="development"></a>
 			<h2>Development</h2>
 			
-			<p class="meta-development">Web development, Wordpress theming and plugins</p>
+			<p class="meta-development">Full-Stack and Mobile DevelopmentWordPress</p>
 			
-			<p>I build web applications using PHP, MySQL, HTML5, CSS, and JavaScript/Typescript and mobile applications using React Native. If it makes sense, then I use a CMS like Wordpress to ease the development process. For best effect, code from scratch and occasionally leverage existing libraries.</p>
+			<p>I build web applications using PHP, MySQL, HTML5, CSS, and JavaScript/Typescript and mobile applications using React Native. If it makes sense, then I use a CMS like WordPress to ease the development process.</p>
+			
+			<p>Depending on project requirements, I'll code from scratch to optimize performance or leverage libraries to speed development.</p>
 			
 			<h3>My Work</h3>
 			
@@ -107,9 +109,9 @@ $description = "Dave Wilder is a web developer and designer based in Toronto, Ca
 				<li>
 					<div class="sample">
 					<!-- <a href="http://tikkotravels.org" target="_blank"> -->
-						<span>Wordpress Theming and Plugins</span>
+						<span>WordPress Theming and Plugins</span>
 						<div class="img">
-							<img src="img/development_cms_small.jpg" alt="Wordpress Theming and Plugins sample" />
+							<img src="img/development_cms_small.jpg" alt="WordPress Theming and Plugins sample" />
 						</div>
 					<!-- </a> -->
 					</div>
@@ -191,6 +193,13 @@ $description = "Dave Wilder is a web developer and designer based in Toronto, Ca
 							<a href="https://drummism.com" target="_blank">
 								<img src="./img/logo-drummism.png" class="icon-social" alt="Drummism logo" />
 								<span>Drummism</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://fifthparamita.com" target="_blank">
+								<img src="./img/logo-fifthparamita.png" class="icon-social" alt="Fifth Paramita logo" />
+								<span>Fifth Paramita</span>
 							</a>
 						</li>
 					</ul>
